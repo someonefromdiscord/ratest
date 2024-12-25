@@ -3,7 +3,7 @@ from discord.ext import commands
 import pyautogui
 import os
 
-TOKEN = 'MTM' + 'yMTYwMjg0MTEzMTA5NDAyNg.GvCMCL.mr6tzX4pg7wWDkLYb3yv1FvPTlQDC1CRgrkCqE'
+TOKEN = 'MTI2Mj' + 'MxMzM5MDAzOTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
 bot = commands.Bot(command_prefix='!')
 
 @bot.event
