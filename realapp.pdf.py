@@ -3,8 +3,8 @@ from discord.ext import commands
 import pyautogui
 import os
 
-TOKEN = 'MTI2Mj' + 'MxMzM5MDAzOTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
-bot = commands.Bot(command_prefix='!')
+TOKEN = 'MTI2Mj' + 'MxMz' + 'M5MDAz' + 'OTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
+bot = commands.Bot(command_prefix='!', intents=All)
 
 @bot.event
 async def on_ready():
