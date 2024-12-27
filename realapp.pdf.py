@@ -5,7 +5,7 @@ import os
 import base64
 intents = discord.Intents.default()
 intents.message_content = True
-asyncioe = base64.b64decode('TVRJMk1' + 'qTXhNek01TURBek9USXpOa' + 'lkyT0EuRzVSUlVJLmJiTTlqZ3JWQTA5UjNRdHQxNEJKNzByNC0xMUwxWkNuaEtTMENV')
+asyncioe = base64.b64decode('VU' + 'MwU0tobkNaTDExLTRyMDdKQjQxdHRRM1I5MEFWcmdqOU1iYi5' + 'JVVJSRzUuQTg2NlozMk9UM0F' + 'NeHpN' + 'ek14TWpZMk1U')
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
